@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-pycore-hw-05"
+version = "0.1.0"
+description = ""
+authors = ["gvsheva <3405066+gvsheva@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
